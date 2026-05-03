@@ -17,14 +17,14 @@ body {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(3,1fr);
-    gap: 12px;
+    gap: 10px;
 }
 
 .obj {
     background: #ffffff;
     border: 1px solid #ffffff;
     border-radius: 12px;
-    width: 100%;
+    width: 150px;
     text-align: center;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
     
@@ -40,19 +40,22 @@ body {
 }
 .et {
     margin-bottom: 10px;
-    background-color: yellow;
-    color: white;
+    background-color: rgb(253, 253, 63);
+    color: rgb(165, 165, 165);
     font-size: 10px;
     font-weight: 700;
     padding: 2px 6px;
     border-radius:0 4px 4px 0;
-    margin-left: 0;
+
 }
 
 .corazon {
     font-size: 16px;
     color: rgb(82, 81, 81);
     cursor: pointer;
+    margin-right: 4px;
+    font-size: 1.3rem;
+
 }
 
 .corazon:hover {
@@ -90,6 +93,9 @@ body {
 }
 .colores {
     margin: 6px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
 }
 
 .color1 {
@@ -100,6 +106,31 @@ body {
   
     margin: 2px;
 }
+.color2 {
+    width: 5px;
+    height: 5px;
+    background: rgb(50, 45, 65);
+    border-radius: 50%;
+    color: rgb(50, 45, 65);
+    margin: 2px;
+}
+.color3 {
+    width: 5px;
+    height: 5px;
+    background: rgb(121, 20, 3);
+    border-radius: 50%;
+    color: rgb(121, 20, 3);
+    margin: 2px;
+}
+.color4 {
+    width: 5px;
+    height: 5px;
+    background: rgb(71, 26, 82);
+    border-radius: 50%;
+    color: rgb(71, 26, 82);
+    margin: 2px;
+}
+
 .barra {
     display: flex;
 
